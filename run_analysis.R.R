@@ -1,4 +1,4 @@
-filepath = file.path("C:/Users/HP/Desktop/data")
+filepath = file.path("C:/Users/HP/Desktop/Data")
 setwd(filepath)
 if(!file.exists("4_W4P")){
   download.file("https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
